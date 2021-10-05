@@ -1,6 +1,6 @@
 #include "kiss_fftr.h"
 #include "fftw3.h"
-#include	<sndfile.h>
+#include <sndfile.h>
 #include "kiss_fft.h"
 
 void fft_d(double * in, fftw_complex* out, int nfft) {
@@ -119,5 +119,3 @@ void testfft() {
 	sf_close(snd_file);
 	
 }
-
-
