@@ -2,7 +2,7 @@ TARGET = fftw_test
 
 CXXFLAGS += -std=gnu++11
 CC = g++
-CXX_FILES := ./fftw_test.cpp
+CXX_FILES := ./fftw-test.cpp
 # fftw3 安装路径
 INC_DIRS := -I ~/fftw-build/include
 STATIC_LIB += -L ~/fftw-build/lib
